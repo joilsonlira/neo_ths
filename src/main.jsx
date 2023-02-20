@@ -8,6 +8,9 @@ import ErrorPage from "./routes/ErrorPage"
 //configurando React/Router
 import Home from './routes/Home'
 import Infectados from './routes/Infectados'
+import Sistemas from './routes/Sistemas'
+import Mapa from './routes/Mapa'
+
 
 const router = createBrowserRouter([
   {
@@ -21,8 +24,16 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "infectados",
+        path: "/infectados",
         element: <Infectados />
+      },
+      {
+        path: "/sistemas",
+        element: <Sistemas />
+      },
+      {
+        path: "/mapa",
+        element: <Mapa />
       }
     ]
   }

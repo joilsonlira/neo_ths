@@ -1,19 +1,15 @@
 import React from "react";
 import Content from "../components/content";
 
-const Infectados = () => {
+const Mapa = () => {
     return(
         <section className="main_section">
             <Content 
-                bg_color="rgba(157, 40, 40, .5)"
-                title="Infectados"
-                
-            >
-
-            </Content>
+                title="Mapa"
+            />
         </section>
             
     )
 }
 
-export default Infectados
+export default Mapa

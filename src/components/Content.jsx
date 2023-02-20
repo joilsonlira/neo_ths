@@ -13,8 +13,9 @@ export default function Content(props){
             <div className="content_title">
                 <h2>{props.title}</h2>
             </div>
-            <div className="content_1">
-                <div className="content_photo">
+                
+            <div className="content">
+                {/* <div className="content_photo">
                     <img 
                         src={Fundo}
                         alt="imagem" 
@@ -23,7 +24,8 @@ export default function Content(props){
                 <div className="content_info">
                     <Paragraph text={textos[0]} />
                     <Paragraph text={textos[1]} />
-                </div>
+                </div> */}
+
             </div>
         </>
     )
