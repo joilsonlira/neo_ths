@@ -1,10 +1,14 @@
 import React from "react";
+import Content from "../components/content";
 
 const Home = () => {
     return(
-        <div>
-            <h1>Home</h1>
-        </div>
+        <section className="main_section">
+            <Content 
+                title="Ambientação"
+            />
+        </section>
+            
     )
 }
 

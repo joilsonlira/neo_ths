@@ -86,7 +86,7 @@
 }
 .main_container{
     margin: 0 auto;
-    max-width: 1024px;
+    width: 1024px;
 }
 .content_title{
     width: 167px;

@@ -5,6 +5,8 @@ import Icon_infectado from "./assets/icon/icon_infectados_color.png"
 import Icon_Sistema from "./assets/icon/icon_sistema-color.png"
 import Icon_mapa from "./assets/icon/icon_mapa_color.png"
 
+import { Outlet } from 'react-router-dom'
+
 function App() {
 
   return (
@@ -61,9 +63,7 @@ function App() {
         </header>
         <section className="main_section">
 
-          <Content 
-            title="Ambientação"
-          />
+          <Outlet />
 
         </section>
       </main>
