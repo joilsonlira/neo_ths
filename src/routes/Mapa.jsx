@@ -1,12 +1,10 @@
 import React from "react";
-import Content from "../components/content";
 
-const Mapa = () => {
+
+const Mapa = (props) => {
     return(
         <section className="main_section">
-            <Content 
-                title="Mapa"
-            />
+            <h1>Mapa</h1>
         </section>
             
     )

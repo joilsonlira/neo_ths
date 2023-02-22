@@ -1,12 +1,10 @@
 import React from "react";
-import Content from "../components/content";
 
-const Sistemas = () => {
+const Sistemas = (props) => {
     return(
         <section className="main_section">
-            <Content 
-                title="Sistemas"
-            />
+            <h1>Sistemas</h1>
+
         </section>
             
     )
