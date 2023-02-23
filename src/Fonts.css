@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'typewriter';
+    /* src: url('/components/fonts/gotham.woff2') format('woff2'); */
+    src: url('./assets/fonts/rough_typewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

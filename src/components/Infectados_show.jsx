@@ -20,8 +20,6 @@ export default function Infectado_container(){
                 <Box_infectado>
                     <img src={Infectado_img} alt="" />
                 </Box_infectado>
-                
-                
             </div>
         </div>
     )

@@ -89,6 +89,11 @@
     width: 1024px;
 }
 
+.inf{
+    background: rgba(29, 9, 3, 0.5);
+    border: 1px solid #330E03;
+}
+
 .content_photo{
     width: 45%;
     /* height: 100%; */
@@ -147,4 +152,23 @@
     background-color: rgba(160, 46, 10,.5);
     border-radius: 4px;
     border: 1px solid #C13C12;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 16px 30px;
+}
+.info h2{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.info p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    text-align: justify;
 }
