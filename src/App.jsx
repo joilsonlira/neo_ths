@@ -12,7 +12,7 @@ function App() {
       <main className="main_container">
       <header className="main_header">
           <div className="logo">
-            THEHIDDENSHIELD
+            HIDDENSHIELD
             <small></small>
           </div>
           <NavBar />
