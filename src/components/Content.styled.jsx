@@ -33,7 +33,7 @@ export const Content_container = styled.div`
     background-position-y: 0px;
     background-repeat: no-repeat;
     column-gap: 15px;
-    padding: 15px;
+    padding: 15px 0 15px 15px;
     max-height: 519px;
     border-radius: 0 4px 4px 4px;
     & .selo{
@@ -43,5 +43,7 @@ export const Content_container = styled.div`
     }
     & p{
         font-family: 'RobotoSlab';
+        text-align: justify;
+        padding-right: 15px;
     }
 `

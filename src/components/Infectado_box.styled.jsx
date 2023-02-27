@@ -27,6 +27,7 @@ export const Infectado_info = styled.div`
     height: 491px;
     border-radius: 4px;
     padding: 32px;
+    margin-right: 15px;
     background-color: #B1B1B1;
     background-image: url(${(prop)=> prop.fundo_info});
     background-position: center center;
@@ -43,11 +44,11 @@ export const Infectado_info = styled.div`
         text-transform: capitalize;
     }
     & p{
-        font-family: 'typewriter';
         color: black;
         line-height: 21px;
         font-size: 18px;
         padding-left: 8px;
+        font-family: 'typewriter';
         margin-top: 23px;
     }
 `
