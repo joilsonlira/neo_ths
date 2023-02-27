@@ -1,6 +1,6 @@
 import React from "react";
 import Paragraph from "../components/Paragraph";
-import Fundo from "../assets/img/teste_fundo_2.png"
+import Fundo from "../assets/img/teste_fundo_2.png";
 import { Content_container, Content_title } from "../components/Content.styled";
 
 const textos = [

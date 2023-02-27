@@ -13,6 +13,7 @@ function App() {
       <header className="main_header">
           <div className="logo">
             THEHIDDENSHIELD
+            <small></small>
           </div>
           <NavBar />
       </header>

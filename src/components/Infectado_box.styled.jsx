@@ -40,6 +40,7 @@ export const Infectado_info = styled.div`
     & h2{
         font-family: 'typewriter';
         font-size: 24px;
+        text-transform: capitalize;
     }
     & p{
         font-family: 'typewriter';

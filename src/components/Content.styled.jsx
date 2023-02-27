@@ -14,6 +14,7 @@ export const Content_title = styled.div`
 
 export const Content_container = styled.div`
     display: flex;
+    flex-direction: ${(prop)=>prop.direction};
     justify-content: space-between;
     width: 100%;
     height: 100%;

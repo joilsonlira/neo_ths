@@ -5,3 +5,10 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'apocalipse';
+    /* src: url('/components/fonts/gotham.woff2') format('woff2'); */
+    src: url('./assets/fonts/Apocalypse-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

@@ -11,14 +11,15 @@
     display: flex;
     align-items: center;
     width: 153px;
-    height: 20px;
-    font-weight: 800;
+    height: 34px;
+    font-weight: 400;
     font-size: 12px;
+    font-family: apocalipse;
     color: white;
     padding-left: 8px;
     background: rgba(198, 183, 49, 0.5);
-    border-bottom: 1px solid #E3D01E;
-    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #E3D01E;
+    border-radius: 4px 32px 0px 0px;
 }
 .logo::after{
     content: ':';
@@ -26,7 +27,7 @@
     align-items: center;
     font-size: 20px;
     height: 20px;
-    margin: 0 0 0 30px ;
+    margin: 20px 0 0 40px ;
     color: #E3D01E;
     animation: pisca 1.2s infinite;
 }
@@ -39,9 +40,9 @@
 .main_menu{
     display: flex;
     width: 80%;
-    /* background: rgba(198, 183, 49, 0.5); */
-    border-bottom: 1px solid #E3D01E;
-    /* border-radius: 0px 4px 4px 0px; */
+    background: rgba(198, 183, 49, 0.5);
+    border: 1px solid #E3D01E;
+    border-radius: 4px;
     height: 20px;
 }
 
@@ -87,6 +88,7 @@
 .main_container{
     margin: 0 auto;
     width: 1024px;
+    min-height: 519px;
 }
 
 .inf{
@@ -171,4 +173,48 @@
     line-height: 16px;
     color: white;
     text-align: justify;
+}
+.system, .category{
+    margin: 0 auto;
+    width: 80%;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.system p{
+    font-size: 14px;
+}
+.box_category{
+    width: 135px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #383838;
+    border-radius: 4px;
+}
+.box_category h3{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.deta{
+    width: 80%;
+    height: 100px;
+    margin-top: 49px;
+    color: white;
+    background: rgba(0, 0, 0, 0.79);
+    border: 2px solid #7D7D7D;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #7D7D7D;
 }
