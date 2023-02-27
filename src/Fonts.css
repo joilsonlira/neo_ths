@@ -12,3 +12,10 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'RobotoSlab';
+    /* src: url('/components/fonts/gotham.woff2') format('woff2'); */
+    src: url('./assets/fonts/RobotoSlab-VariableFont_wght.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

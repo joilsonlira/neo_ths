@@ -6,10 +6,15 @@ export const Content_title = styled.div`
     padding-left: 15px;
     color: ${(prop)=>prop.txt_color};
     padding-top: 4px;
+    text-transform: capitalize;
     font-size: 12px;
     font-weight: 600;
+    font-family: 'Roboto Slab', serif;
     border-radius: 4px 32px 0px 0px;
     background: ${(prop)=>prop.bg_color};
+    & h2{
+        font-family: 'RobotoSlab';
+    }
 `
 
 export const Content_container = styled.div`
@@ -35,5 +40,8 @@ export const Content_container = styled.div`
         position: absolute;
         bottom: 0;
         right: 0;
+    }
+    & p{
+        font-family: 'RobotoSlab';
     }
 `
