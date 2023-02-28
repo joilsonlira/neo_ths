@@ -2,7 +2,11 @@ import React from "react";
 import { Content_container, Content_title } from "../components/Content.styled";
 import Paragraph from "../components/Paragraph";
 import corporal_icon from "../assets/img/corporal_icon.png"
-
+import jobs_icon from "../assets/img/jobs.png"
+import weapons_icon from "../assets/img/weapons.png"
+import loots_icon from "../assets/img/loots.png"
+import resources_icon from "../assets/img/resources.png"
+import { Category_box } from '../components/System_box.styled'
 
 const bg_color = "#D9D9D9"
 
@@ -21,26 +25,26 @@ const Sistemas = (props) => {
                 <Paragraph className="paragraph_sytem" text={textos[0]}/>
             </div>
             <div className="category">
-                <div className="box_category">
+                <Category_box>
                     <img src={corporal_icon} alt="system icon" />
                     <h3>corporal</h3>
-                </div>
-                <div className="box_category">
-                    <img src={corporal_icon} alt="system icon" />
-                    <h3>corporal</h3>
-                </div>
-                <div className="box_category">
-                    <img src={corporal_icon} alt="system icon" />
-                    <h3>corporal</h3>
-                </div>
-                <div className="box_category">
-                    <img src={corporal_icon} alt="system icon" />
-                    <h3>corporal</h3>
-                </div>
-                <div className="box_category">
-                    <img src={corporal_icon} alt="system icon" />
-                    <h3>corporal</h3>
-                </div>
+                </Category_box>
+                <Category_box>
+                    <img src={jobs_icon} alt="system icon" />
+                    <h3>Profissões</h3>
+                </Category_box>
+                <Category_box>
+                    <img src={weapons_icon} alt="system icon" />
+                    <h3>Armas</h3>
+                </Category_box>
+                <Category_box>
+                    <img src={loots_icon} alt="system icon" />
+                    <h3>Loots</h3>
+                </Category_box>
+                <Category_box>
+                    <img src={resources_icon} alt="system icon" />
+                    <h3>Recursos</h3>
+                </Category_box>
             </div>
             <div className="content_info system deta">
                 <Paragraph className="paragraph_sytem" text={textos[1]}/>

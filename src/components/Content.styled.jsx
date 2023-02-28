@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import dirt from '../assets/img/Dirt-Soil-PNG-Image.png'
 
 export const Content_title = styled.div`
     width: 167px;
@@ -26,7 +27,7 @@ export const Content_container = styled.div`
     background: radial-gradient(68.79% 68.79% at 50% 50%, 
         rgba(0, 0, 0, 0) 0.96%, 
         rgba(0, 0, 0, 0.2) 66.46%), 
-        url(../assets/img/Dirt-Soil-PNG-Image.png), 
+        url(${dirt}), 
         ${(prop)=>prop.bg_color};
     background-position: center center;
     background-size: cover;
