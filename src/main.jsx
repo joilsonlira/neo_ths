@@ -9,6 +9,7 @@ import ErrorPage from "./routes/ErrorPage"
 import Home from './routes/Home'
 import Infectados from './routes/Infectados'
 import Sistemas from './routes/Sistemas'
+import Category_system from './routes/Category_system'
 import Mapa from './routes/Mapa'
 
 
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: "/sistemas",
         element: <Sistemas />
+      },
+      {
+        path: "/sistemas/corporal",
+        element: <Category_system />
       },
       {
         path: "/mapa",

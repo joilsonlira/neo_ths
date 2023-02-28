@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Content_container, Content_title } from "../components/Content.styled";
 import Paragraph from "../components/Paragraph";
 import corporal_icon from "../assets/img/corporal_icon.png"
@@ -25,10 +26,12 @@ const Sistemas = (props) => {
                 <Paragraph className="paragraph_sytem" text={textos[0]}/>
             </div>
             <div className="category">
-                <Category_box>
-                    <img src={corporal_icon} alt="system icon" />
-                    <h3>corporal</h3>
-                </Category_box>
+                <Link to={"/sistemas/corporal"}>
+                    <Category_box>
+                        <img src={corporal_icon} alt="system icon" />
+                        <h3>corporal</h3>
+                    </Category_box>
+                </Link>
                 <Category_box>
                     <img src={jobs_icon} alt="system icon" />
                     <h3>Profissões</h3>
