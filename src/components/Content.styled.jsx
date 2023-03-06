@@ -9,7 +9,7 @@ export const Content_title = styled.div`
     padding-top: 4px;
     text-transform: capitalize;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: bolder;
     font-family: 'Roboto Slab', serif;
     border-radius: 4px 32px 0px 0px;
     background: ${(prop)=>prop.bg_color};

@@ -15,7 +15,7 @@ export const Category_box = styled.article`
     &:hover{
         cursor: pointer;
         background: rgba(255, 255, 255, 1);
-    border: 1px solid #696969;
+        border: 1px solid #696969;
     }
 
     & h3{

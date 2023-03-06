@@ -27,6 +27,8 @@ const Infectados = () => {
         }
     ]
     
+    let [infectado_info, set_info] = useState(2)
+
     let bg_color = "#9D2828"
     let txt_color = "white"
     
@@ -43,26 +45,39 @@ const Infectados = () => {
                     <img src={Infectado_img} alt="infectado" />
                 </div>
                 <div className="hud_infectados">
-                    <Box_infectado className="btn_infectado" onClick={()=>{
-
-                        
-                    }}>
+                    <Box_infectado 
+                        className="btn_infectado" 
+                        onClick={()=>{
+                            set_info(infectado_info = 0)
+                        }}>
                         <img src={Infectado_img} alt="" />
                     </Box_infectado>
-                    <Box_infectado className="btn_infectado">
+                    <Box_infectado 
+                        className="btn_infectado"
+                        onClick={()=>{
+                            set_info(infectado_info = 1)
+                        }}>
                         <img src={Infectado_img} alt="" />
                     </Box_infectado>
-                    <Box_infectado className="btn_infectado">
+                    <Box_infectado
+                        className="btn_infectado"
+                        onClick={()=>{
+                            set_info(infectado_info = 2)
+                        }}>
                         <img src={Infectado_img} alt="" />
                     </Box_infectado>
-                    <Box_infectado className="btn_infectado">
+                    <Box_infectado
+                        className="btn_infectado"
+                        onClick={()=>{
+                            set_info(infectado_info = 3)
+                        }}>
                         <img src={Infectado_img} alt="" />
                     </Box_infectado>
                 </div>
             </div>
                 <Infectado_info  fundo_info={fundo_info}>
-                    <h2>{infectado[0].stage}</h2>
-                    <p>{infectado[0].description}</p>
+                    <h2>{infectado[infectado_info].stage}</h2>
+                    <p>{infectado[infectado_info].description}</p>
                     <img className="selo" src={selo} alt="Selo confidencial" />
                 </Infectado_info>
             </Content_container>
