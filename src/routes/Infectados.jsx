@@ -40,7 +40,7 @@ const Infectados = () => {
     
     let [infectado_info, set_info] = useState(2)
 
-    let bg_color = "#9D2828"
+    let bg_color = "#802525"
     let txt_color = "white"
     
     return(

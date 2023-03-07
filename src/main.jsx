@@ -10,6 +10,7 @@ import Home from './routes/Home'
 import Infectados from './routes/Infectados'
 import Sistemas from './routes/Sistemas'
 import Category_system from './routes/Category_system'
+import Jobs_system from './routes/Jobs_system'
 import Mapa from './routes/Mapa'
 
 
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/sistemas/corporal",
         element: <Category_system />
+      },
+      {
+        path: "/sistemas/jobs",
+        element: <Jobs_system />
       },
       {
         path: "/mapa",

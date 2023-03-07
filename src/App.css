@@ -225,7 +225,6 @@
 }
 
 .ability_box{
-    display: block;
     width: 377px;
     height: 489px;
     background: rgba(0, 0, 0, 0.7);
@@ -235,6 +234,14 @@
     padding: 8px 15px;
     overflow-y: scroll;
 }
+.remendo{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+}
+
 .ability_box header{
     display: flex;
     justify-content: center;

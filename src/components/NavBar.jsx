@@ -40,7 +40,7 @@ const NavBar = ()=>{
                 <Link to={"/sistemas"} className="menu_item">Sistemas</Link>
               </li>
 
-              <li>
+              {/* <li>
                 <div className="icon">
                   <img
                     src={Icon_mapa}
@@ -48,7 +48,7 @@ const NavBar = ()=>{
                   />
                 </div>
                 <Link to={"/mapa"} className="menu_item">Mapa</Link>
-              </li>
+              </li> */}
             </ul>
             
           </nav>
