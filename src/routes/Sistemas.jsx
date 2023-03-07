@@ -32,10 +32,12 @@ const Sistemas = (props) => {
                         <h3>corporal</h3>
                     </Category_box>
                 </Link>
-                <Category_box>
-                    <img src={jobs_icon} alt="system icon" />
-                    <h3>Profissões</h3>
-                </Category_box>
+                <Link to={"/sistemas/jobs"}>    
+                    <Category_box>
+                        <img src={jobs_icon} alt="system icon" />
+                        <h3>Profissões</h3>
+                    </Category_box>
+                </Link>
                 <Category_box>
                     <img src={weapons_icon} alt="system icon" />
                     <h3>Armas</h3>
