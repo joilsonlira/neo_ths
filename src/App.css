@@ -134,7 +134,7 @@
 }
 .infectado_photo{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     width: 100%;
     height: 80%;
@@ -143,6 +143,11 @@
     background-position: center;
     background-size: contain;
     overflow: hidden;
+}
+.infectado_photo img{
+    width: auto;
+    height: 100%;
+    filter: saturate(2);
 }
 .hud_infectados{
     display: flex;
@@ -262,12 +267,7 @@
     color: white;
     margin: 5px 0;
 }
-/* .exemplo{
-    padding-left: 1rem;
-} */
-
 .exemplo p, .exemplo small, .exemplo span{
-    
     display: flex;
     /* flex-direction: column; */
     align-items: baseline;

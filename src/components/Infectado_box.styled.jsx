@@ -7,13 +7,14 @@ export const Box_infectado = styled.div`
     width: 92px;
     height: 92px;
     border-radius: 2px;
-    background: rgba(227, 208, 30, 0.31);
+    border: 1px solid transparent;
+    /* overflow: hidden; */
     box-shadow: inset 0px 4px 0px 94px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
+    /* background: rgba(227, 208, 30, 0.31); */
 
     & img{
         width: auto;
-        height: 300%;
+        height: 100%;
     }
     &:hover{
         cursor: pointer;
@@ -50,5 +51,8 @@ export const Infectado_info = styled.div`
         padding-left: 8px;
         font-family: 'typewriter';
         margin-top: 23px;
+    }
+    & .selo{
+        opacity: .5;
     }
 `
