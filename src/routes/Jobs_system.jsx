@@ -91,7 +91,7 @@ const Jobs = (props) => {
         </Content_title>
             
         <Content_container bg_color={bg_color} direction={'row'}>
-            <Category_box cursor={"default"}>
+            <Category_box cursor={"default"} bg_color_category="white" bg_hover_color_category="white" border_color_category="#696969">
                 <img src={jobs_icon} alt="system icon" />
                 <h3>Profissões</h3>
             </Category_box>

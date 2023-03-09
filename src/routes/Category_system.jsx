@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Content_container, Content_title } from "../components/Content.styled";
 import corporal_icon from "../assets/img/corporal_icon.png"
 import com_habilidade from "../assets/img/com_habilidade.png"
@@ -14,7 +15,17 @@ import { Btn_back } from "../components/Btn_back.styled";
 const bg_color = "#D9D9D9"
 
 
+
 const Category_system = (props) => {
+
+    
+    const info_sem_habilidade = [
+        {   
+            introducao:"Nesse caso, os ataques são distribuídos em dois turnos, onde o primeiro serve para organização e preparação de uma base e a segunda é utilizada para efetuação do ataque",
+            exemplo_1:"Firmou os pés no chão, preparando uma base que serviria de apoio contra o oponente.",
+            exemplo_2:"Assim como o oponente, realizou a preparação física, dobrando um pouco dos joelhos para conquistar maior apoio na hora do ataque."
+        }
+    ]
     return(
         <section className="main_section">
             <Content_title bg_color={bg_color}>
@@ -24,10 +35,12 @@ const Category_system = (props) => {
             <Content_container bg_color={bg_color}>
                 <div className="side_menu">
                     <div className="menu_pericia">
-                        <Category_box className="category_enable" cursor={"default"}>
-                            <img src={corporal_icon} alt="system icon" />
-                            <h3>corporal</h3>
-                        </Category_box>
+                        <Link to={"/sistemas/corporal"}>
+                            <Category_box className="category_enable" cursor={"pointer"} bg_color_category="white" bg_hover_color_category="white" border_color_category="#696969">
+                                <img src={corporal_icon} alt="system icon" />
+                                <h3>corporal</h3>
+                            </Category_box>
+                        </Link>
                         <Sub_category>
                             <img src={faca_icon} alt="icone sem prestigio" />
                             <p>Perícia em armas brancas</p>
@@ -37,11 +50,20 @@ const Category_system = (props) => {
                             <img src={weapons_icon} alt="icone sem prestigio" />
                             <p>Perícia em armas de fogo</p>
                         </Sub_category>
+                        <Sub_category>
+                            <img src={weapons_icon} alt="icone sem prestigio" />
+                            <p>Perícia em química</p>
+                        </Sub_category>
+                        <Sub_category>
+                            <img src={weapons_icon} alt="icone sem prestigio" />
+                            <p>Perícia em veículos</p>
+                        </Sub_category>
                     </div>
-                    
-                    <Btn_back>
-                        <strong>back</strong>
-                    </Btn_back>
+                    <Link to={"/sistemas"}>
+                        <Btn_back>
+                            <strong>back</strong>
+                        </Btn_back>
+                    </Link>
 
                 </div>
                 
@@ -63,16 +85,14 @@ const Category_system = (props) => {
                         <h2>Sem habilidades em luta física</h2>
                     </header>
                     <div className="ability_description">
-                        <p>
-                        Nesse caso, os ataques são distribuídos em dois turnos, onde o primeiro serve para organização e preparação de uma base e a segunda é utilizada para efetuação do ataque.
-                        </p>
+                        <p>{info_sem_habilidade[0].introducao}</p>
                         <div className="exemplo">
                             <small>Exemplo :</small>
                             <p>
-                            <span>Diego:</span> * Firmou os pés no chão, preparando uma base que serviria de apoio contra o oponente. *
+                            <span>Diego:</span> * {info_sem_habilidade[0].exemplo_1} *
                             </p>
                             <p>
-                            <span>Rebeca:</span> * Assim como o oponente, realizou a preparação física, dobrando um pouco dos joelhos para conquistar maior apoio na hora do ataque. *
+                            <span>Rebeca:</span> * {info_sem_habilidade[0].exemplo_2} *
                             </p>
                         </div>
                         <p>

@@ -28,23 +28,23 @@ const Sistemas = (props) => {
             </div>
             <div className="category">
                 <Link to={"/sistemas/corporal"}>
-                    <Category_box cursor={"pointer"}>
+                    <Category_box cursor={"pointer"} bg_color_category="rgba(255, 255, 255, 0.3)" border_color_category="#696969" bg_hover_color_category="white" >
                         <img src={corporal_icon} alt="system icon" />
                         <h3>corporal</h3>
                     </Category_box>
                 </Link>
                 <Link to={"/sistemas/jobs"}>    
-                    <Category_box cursor={"pointer"}>
+                    <Category_box cursor={"pointer"} bg_color_category="rgba(255, 255, 255, 0.3)" border_color_category="#696969" bg_hover_color_category="white" >
                         <img src={jobs_icon} alt="system icon" />
                         <h3>Profissões</h3>
                     </Category_box>
                 </Link>
-                <Category_box cursor={"not-allowed"}>
+                <Category_box cursor={"not-allowed"} bg_color_category="rgba(255, 255, 255, 0.3)" border_color_category="black" bg_hover_color_category="rgba(255, 255, 255, 0.3)" >
                     <img src={weapons_icon} alt="system icon" />
                     <h3>Armas</h3>
                     <img src={em_breve} alt="" className="em_breve" />
                 </Category_box>
-                <Category_box cursor={"not-allowed"}>
+                <Category_box cursor={"not-allowed"} bg_color_category="rgba(255, 255, 255, 0.3)" border_color_category="black" bg_hover_color_category="rgba(255, 255, 255, 0.3)" >
                     <img src={loots_icon} alt="system icon" />
                     <h3>Loots</h3>
                     <img src={em_breve} alt="" className="em_breve" />

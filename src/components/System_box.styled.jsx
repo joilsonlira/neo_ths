@@ -7,15 +7,16 @@ export const Category_box = styled.article`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(255, 255, 255, 0.3);
+    background: ${(prop)=>prop.bg_color_category};
+    /* background: rgba(255, 255, 255, 0.3); */
     border: 1px solid #383838;
     border-radius: 4px;
     transition: all .3s linear;
+    cursor: ${(prop)=>prop.cursor};
     
     &:hover{
-        cursor: ${(prop)=>prop.cursor};
-        background: rgba(255, 255, 255, 1);
-        border: 1px solid #696969;
+        background: ${(prop)=>prop.bg_hover_color_category};
+        border: 1px solid ${(prop)=>prop.border_color_category};
     }
 
     & h3{
