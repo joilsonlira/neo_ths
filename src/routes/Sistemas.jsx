@@ -6,7 +6,8 @@ import corporal_icon from "../assets/img/corporal_icon.png"
 import jobs_icon from "../assets/img/jobs.png"
 import weapons_icon from "../assets/img/weapons.png"
 import loots_icon from "../assets/img/loots.png"
-import resources_icon from "../assets/img/resources.png"
+import em_breve from "../assets/img/em_breve.png"
+// import resources_icon from "../assets/img/resources.png"
 import { Category_box } from '../components/System_box.styled'
 
 const bg_color = "#D9D9D9"
@@ -27,29 +28,31 @@ const Sistemas = (props) => {
             </div>
             <div className="category">
                 <Link to={"/sistemas/corporal"}>
-                    <Category_box>
+                    <Category_box cursor={"pointer"}>
                         <img src={corporal_icon} alt="system icon" />
                         <h3>corporal</h3>
                     </Category_box>
                 </Link>
                 <Link to={"/sistemas/jobs"}>    
-                    <Category_box>
+                    <Category_box cursor={"pointer"}>
                         <img src={jobs_icon} alt="system icon" />
                         <h3>Profissões</h3>
                     </Category_box>
                 </Link>
-                <Category_box>
+                <Category_box cursor={"not-allowed"}>
                     <img src={weapons_icon} alt="system icon" />
                     <h3>Armas</h3>
+                    <img src={em_breve} alt="" className="em_breve" />
                 </Category_box>
-                <Category_box>
+                <Category_box cursor={"not-allowed"}>
                     <img src={loots_icon} alt="system icon" />
                     <h3>Loots</h3>
+                    <img src={em_breve} alt="" className="em_breve" />
                 </Category_box>
-                <Category_box>
+                {/* <Category_box>
                     <img src={resources_icon} alt="system icon" />
                     <h3>Recursos</h3>
-                </Category_box>
+                </Category_box> */}
             </div>
             <div className="content_info system deta">
                 <Paragraph className="paragraph_sytem" text={textos[1]}/>

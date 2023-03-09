@@ -3,7 +3,13 @@ import { Content_container, Content_title } from "../components/Content.styled";
 import corporal_icon from "../assets/img/corporal_icon.png"
 import com_habilidade from "../assets/img/com_habilidade.png"
 import sem_habilidade from "../assets/img/sem_habilidade.png"
+
+import faca_icon from "../assets/img/arma_branca.png"
+import weapons_icon from "../assets/img/weapons.png"
+
 import { Category_box } from '../components/System_box.styled'
+import { Sub_category } from "../components/SubCategory.styled";
+import { Btn_back } from "../components/Btn_back.styled";
 
 const bg_color = "#D9D9D9"
 
@@ -12,14 +18,33 @@ const Category_system = (props) => {
     return(
         <section className="main_section">
             <Content_title bg_color={bg_color}>
-                    <h2>ambientação</h2>
+                    <h2>sistemas</h2>
             </Content_title>
                     
             <Content_container bg_color={bg_color}>
-                <Category_box className="category_enable">
-                    <img src={corporal_icon} alt="system icon" />
-                    <h3>corporal</h3>
-                </Category_box>
+                <div className="side_menu">
+                    <div className="menu_pericia">
+                        <Category_box className="category_enable" cursor={"default"}>
+                            <img src={corporal_icon} alt="system icon" />
+                            <h3>corporal</h3>
+                        </Category_box>
+                        <Sub_category>
+                            <img src={faca_icon} alt="icone sem prestigio" />
+                            <p>Perícia em armas brancas</p>
+                        </Sub_category>
+                        
+                        <Sub_category>
+                            <img src={weapons_icon} alt="icone sem prestigio" />
+                            <p>Perícia em armas de fogo</p>
+                        </Sub_category>
+                    </div>
+                    
+                    <Btn_back>
+                        <strong>back</strong>
+                    </Btn_back>
+
+                </div>
+                
                 <div className="ability_box">
                     <header>
                         <img src={com_habilidade} alt="icom" />

@@ -13,7 +13,7 @@ export const Category_box = styled.article`
     transition: all .3s linear;
     
     &:hover{
-        cursor: pointer;
+        cursor: ${(prop)=>prop.cursor};
         background: rgba(255, 255, 255, 1);
         border: 1px solid #696969;
     }
@@ -23,5 +23,11 @@ export const Category_box = styled.article`
         text-align: center;
         font-weight: 600;
         font-size: 18px;
+    }
+
+    & .em_breve{
+        width: 135px;
+        height: auto;
+        position: absolute;
     }
 `
