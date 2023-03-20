@@ -1,0 +1,308 @@
+{
+    "main_menu":["Ambietação" ,"Infectados" ,"Sistemas"],
+    "pages":
+    [
+        {
+            "page": "Ambietação",
+            "content": 
+                {
+                    "img":"teste_fundo_2.png",
+                    "text":
+                    [
+                        "Com o fim da tensão entre os países ocidentais capitalistas apoiados pelos Estados Unidos e as nações orientais socialistas comandadas pela União das Repúblicas Socialistas Soviéticas, o mundo se viu em uma nova formatação. O avanço econômico da grande nação americana evoluiu de acordo com suas técnicas industriais, agrícolas e, principalmente, tecnológicas. O impacto dos novos modelos agregados a economia estadunidense veio à tona, afetando principalmente áreas do interior e do campo.",
+
+                        "Uma das primeiras medidas apoiadas pelo governo dos Estados Unidos foi a liberação do uso de pesticidas para aumento da produção e, consequentemente, da renda comercial de trigo e milho. A deliberação para o uso de biopesticidas importados da Ucrânia começou a ser discutido pelos ambientalistas quando analisado vertentes do vetor utilizado no combate a pragas.",
+
+                        "O Cordyceps - gênero de fungos caracterizados por parasitar seres vivos em busca de locais adequados para sua proliferação - sofreu uma espécie de modificação com o uso intenso na agricultura. Em pouco tempo, casos de uma infecção começaram a surgir entre camponeses, fazendeiros, caseiros e agregados. Inúmeros relatos de febre, surgimento de úlceras externas, dores no corpo, manchas e, principalmente, perda da capacidade motora e intelectual começaram a chegar nos hospitais despreparados do interior americano.",
+
+                        "Nos primeiros dias, a febre alta era letal e os poucos profissionais da saúde encaminhados de tratar da doença já estavam infectados pelo fungo ao inalar os esporos liberados na fase de reprodução do parasita. Semanas após o início dos casos, as clínicas médicas perderam o controle da situação. Os novos infectados apresentavam resistência aos medicamentos e pareciam não responder aos tratamentos. A febre, antes letal, encontrava resistência do Cordyceps em manter o corpo vivo para a continuação do parasitismo.",
+
+                        "Os primeiros relatos de violência dos afetados começaram a surgir. Inúmeros ataques foram relatados em todas as pequenas cidades atingidas pela infecção. Imediatamente, os que sobreviviam procuravam abrigo nas cidades grandes, levando o problema para as grandes capitais. Com o descontrole em massa, o governo passou a admitir o uso de força militar para contenção dos infectados. O extermínio de pessoas infectadas começara mas não obtinha sucesso.",
+
+                        "A queda do governo americano veio junto a outras potências mundiais. A infecção já havia se espalhado por todo o mundo e o caos havia se instaurado na humanidade. A arma biológica havia saído do controle e o fim da humanidade estava mais perto do que nunca."
+                    ]
+                }
+            
+        },
+        {
+            "page": "Infectados",
+            "content": 
+            {
+                "Infectados":[
+                    {
+                        "id":1,
+                        "stage":"Corredor",
+                        "img":"imagem_2023-03-07_103855615-removebg-preview.png",
+                        "thumb":"Corredores.jpg",
+                        "info":["Caso a infecção não seja evitada, ela se completa e atribui ao indivíduo o primeiro estágio da doença. Nesse caso, o infectado apresenta comportamentos violentos e a força, resistência e velocidade de um ser humano comum. O corpo está repleto de úlceras e a boca esbanja sangue junto a saliva."]
+                    },
+                    {
+                        "id":2,
+                        "stage":"Perseguidores",
+                        "img":"Perseguidores.png",
+                        "thumb":"Perseguidores.jpg",
+                        "info":["No segundo estágio da doença, locais do corpo do infectado passam a ser tomados pela aparência do fungo. Um cogumelo acinzentado surge dos olhos, narizes, boca ou orelha dos errantes. Eles possuem uma força maior e uma velocidade um pouco mais aflorada quando comparados aos corredores. Sua resistência é a mesma dos humanos, mas o ataque pode ser dificultado devido a intensa movimentação."]
+                    },
+                    {
+                        "id":3,
+                        "stage":"Estaladores",
+                        "img":"Estaladores.png",
+                        "thumb":"Estaladores.jpg",
+                        "info":["Esses adoentados já estão infectados a certo tempo pelo fungo. Seu rosto é tomado pela aparência do Cordyceps e apenas sua boca é livre do avanço do fungo. Eles emitem ruídos estridentes que avisam outros infectados sobre a presença de um indivíduo saudável. Eles não enxergam, a não ser pela ecolocalização que desenvolvem no estágio três da infecção. Eles possuem uma força significativa e uma velocidade um tanto menor que os perseguidores devido a ausência da visão. Sua resistência é um pouco maior comparado aos corredores e perseguidores."]
+                    },
+                    {
+                        "id":4,
+                        "stage":"Baiacus",
+                        "img":"Baiacus.png",
+                        "thumb":"Baiacus.jpg",
+                        "info":["Baiacus são o último e mais raro estágio da doença. Isso porque estes seres apresentam o corpo avantajado, repleto de micoses, úlceras e do fungos. É quase impossível identificar os membros do corpo desse ser. Eles podem ter um excesso do cogumelo acinzentado nas suas costas, formando uma corcunda. São extremamente fortes e resistentes a ataques. Não são tão rápidos como nos outros casos, mas fortes o bastante para serem apavorantes."]
+                    }
+                ]
+            }
+            
+        },
+        {
+            "page": "Sistemas",
+            "content": 
+            [
+                {
+                    "category":"Combate",
+                    "section":
+                    [
+                        {   
+                            "id":0,
+                            "type":"Habilidades em luta física",
+                            "content":
+                            [
+                                {
+                                    "header":
+                                    {
+                                        "Icon":"patch of icon",
+                                        "Title":"Com habilidades em luta física"
+                                    },
+                                    "content":
+                                    [
+                                        {
+                                            "intro":"No caso da luta corporal com perícias físicas, é necessário apenas um turno para preparação de base e ataque. Os sistemas de ataque e defesa continuam os mesmos para o caso de lutas sem habilidade. Durante as neutras, pode fazer-se necessário o uso do sistema de dados pelo administrador afim de fazer valer as perícias físicas",
+                                            "exemple":
+                                            [""]
+                                        },
+                                        {
+                                            "intro":"Armas brancas: Para a utilização das armas brancas (facas, canivetes, machados, tacos, entre outras), é necessário seguir as regras conforme dispostas a seguir.",
+                                            "exemple":
+                                            [""]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "header":
+                                    {
+                                        "Icon":"patch of icon",
+                                        "Title":"Sem habilidades em luta física"
+                                    },
+                                    "content":
+                                    [
+                                        {
+                                            "intro":"Nesse caso, os ataques são distribuídos em dois turnos, onde o primeiro serve para organização e preparação de uma base e a segunda é utilizada para efetuação do ataque.",
+                                            "exemple":
+                                            [
+                                                {
+                                                    "name":"Diego",
+                                                    "text":"Firmou os pés no chão, preparando uma base que serviria de apoio contra o oponente.",
+                                                    "modifier":[""]
+                                                },
+                                                {
+                                                    "name":"Rebeca",
+                                                    "text":"Assim como o oponente, realizou a preparação física, dobrando um pouco dos joelhos para conquistar maior apoio na hora do ataque.",
+                                                    "modifier":[""]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "intro":"A luta corporal segue o estilo 'ataque, defesa, contra-ataque', repetidamente. Além disso, local de ataque e forma de ataque devem ser explicitados. ",
+                                            "exemple":
+                                            [
+                                                {
+                                                    "name":"Diego",
+                                                    "text":"Em vantagem, definiu o primeiro ataque, delegando o punho fechado em direção ao estômago da mulher, utilizando da força contra a oponente.",
+                                                    "modifier":["- Ataque"]
+                                                },
+                                                {
+                                                    "name":"Rebeca",
+                                                    "text":"Ao perceber que o braço do rapaz avançava em direção ao seu estômago para um ataque, Rebeca juntou os braços rente ao corpo, na posição de sua barriga, impedindo que o golpe fosse acertado no local indicado. Ao invés disso, o soco foi recebido nos braços unidos, diminuindo o impacto. Em seguida, investiu um soco no queixo do rapaz, afim de desacordá-lo temporariamente.",
+                                                    "modifier":["- Defesa","+ Contra-ataque"]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "intro":"Nos turnos de defesa, NÃO é permitido o uso de desvios em duas ações seguidas. Desse modo, também NÃO é permitido um contra-ataque quando há desvio no turno de defesa.",
+                                            "exemple":
+                                            [
+                                                {
+                                                    "name":"Diego",
+                                                    "text":"Em sua direção, vinha o golpe da moça em direção ao seu queixo. De prontidão, saltou para trás afim de livrar-se do ataque.",
+                                                    "modifier":["- Defesa (Desvio)"]
+                                                },
+                                                {
+                                                    "name":"Rebeca",
+                                                    "text":"Visto que o rapaz não podia atacar pois havia se afastado, Rebeca tentou atacá-lo com um chute em direção a sua barriga, afim de atordoá-lo.",
+                                                    "modifier":["- Ataque"]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "intro":" Além dos desvios, também é permitido avanços para diminuir a distância durante a luta. Porém, eles só podem acontecer em turnos de ataque. Com isso, complementa-se que as lutas corporais só ocorrem a 0q de distância.",
+                                            "exemple":
+                                            [
+                                                {
+                                                    "name":"Diego",
+                                                    "text":"Visto que estava distante (1q), Diego avança para encurtar as distância contra Rebeca e utiliza do punho fechado para acertar a face da mulher, afim de nocauteá-la.",
+                                                    "modifier":["- Ataque"]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id":1,
+                            "type":"Perícia em armas brancas",
+                            "content":
+                            [
+                                {
+                                    "header":
+                                    {
+                                        "Icon":"patch of icon",
+                                        "Title":"Com perícia em armas brancas"
+                                    },
+                                    "content":
+                                    [
+                                        {
+                                            "intro":"Indivíduos com habilidades em manuseio de armas brancas não correm risco de se machucarem durante o uso delas. Possuem uma boa mira, apenas durante o uso da arma, e uma força considerável para alcançar os crânios dos infectados",
+                                            "exemple":
+                                            [""]
+                                        },
+                                        {
+                                            "intro":"É utilizado apenas um turno para sacar a arma e investir no ataque.",
+                                            "exemple":
+                                            [""]
+                                        },
+                                        {
+                                            "intro":"Ataques com armas brancas podem ser realizados a longo alcance (dependendo da arma), ou seja, até 5q de distância. A mira é excepcional e quase sempre acertam seus alvos.",
+                                            "exemple":
+                                            [""]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "header":
+                                    {
+                                        "Icon":"patch of icon",
+                                        "Title":"Sem perícia em armas brancas"
+                                    },
+                                    "content":
+                                    [
+                                        {
+                                            "intro":"Pessoas que não possuem habilidades com armas que não contêm pólvora costumam obter um desempenho mediano no uso desses armamentos. Essas pessoas podem correr o risco de se cortarem no uso desajeitado de lâminas. Além disso, podem não conseguir obter uma boa mira ou força. Com isso, o uso contra infectados pode ser dificultado e imprudente.",
+                                            "exemple":
+                                            [""]
+                                        },
+                                        {
+                                            "intro":"As ações referentes às armas brancas por quem não tem perícia devem ser feitas em dois turnos. O primeiro, é utilizado para retirada do armamento do bolso ou mochila e preparação da arma. Já o segundo, deve ser utilizado para efetuar o ataque.",
+                                            "exemple":
+                                            [""]
+                                        },
+                                        {
+                                            "intro":"Ataques com armas brancas podem ser feitos até 2q de alcance. Além disso, players sem perícia não conseguem arremessar armas brancas a uma distância maior que essa. Caso tentem, o risco da mira ser errada é grande e deve ser definida pelo sistema de dados.",
+                                            "exemple":
+                                            [""]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id":2,
+                            "type":"Perícia em rmas de fogo",
+                            "content":
+                            [
+                                {
+                                    "header":
+                                    {
+                                        "Icon":"patch of icon",
+                                        "Title":"Com perícia em armas de fogo"
+                                    },
+                                    "content":
+                                    [
+                                        {
+                                            "intro":" Indivíduos que têm perícia em armas de fogo conseguem realizar sacar e destravar a arma, além de mirar no alvo em um único turno. O segundo turno é utilizado apenas para a finalização do disparo.",
+                                            "exemple":
+                                            [""]
+                                        },
+                                        {
+                                            "intro":"Essas pessoas possuem uma boa mira quando estão utilizando do armamento de pólvora. Podem disparar em uma distância de 5q, sem dificuldades. Arremessos de bombas, granadas, molotovs, entre outros são facilitados devido a boa mira das pessoas com perícia.",
+                                            "exemple":
+                                            [""]
+                                        },
+                                        {
+                                            "intro":"As defesas contra armas de fogo são comprometidas, seguindo o senso rpgístico. Desvios são permitidos até 4q de distância e não podem ser realizados duas vezes seguidas. Menos que isso, o disparo é certeiro.",
+                                            "exemple":
+                                            [""]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "header":
+                                    {
+                                        "Icon":"patch of icon",
+                                        "Title":"Sem perícia em armas de fogo"
+                                    },
+                                    "content":
+                                    [
+                                        {
+                                            "intro":"Jogadores que não possuem perícia no uso de armas de fogo devem utilizar de três turnos para efetuar um disparo. O primeiro é utilizado para retirada do armamento do coldre ou de onde esteja guardada. Em seguida, o segundo turno deve ser efetuado para destravar o armamento e mirar no alvo. Por último, é utilizado um turno para executar o disparo. Caso esses passos não sejam executados, a ação pode ser negada ou o disparo pode ser mal efetuado.",
+                                            "exemple":
+                                            [""]
+                                        },
+                                        {
+                                            "intro":"Disparos por indivíduos sem perícia em armas de fogo só podem ser realizadas até 2q de alcance. Caso o disparo seja efetuado a uma distância maior que 2q, as chances de acertar o alvo são reduzidas em até 70%",
+                                            "exemple":
+                                            [""]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "category":"Profissões",
+                    "section":[
+                        {
+                            "sub_page":[
+                                {
+                                    "header":
+                                    {
+                                        "Icon":"patch of icon",
+                                        "Title":"Profissões de prestígio"
+                                    },
+                                    "content":
+                                    [
+                                        
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "category":"Armas"
+                },
+                {
+                    "category":"Loots"
+                }
+            ]
+        }
+    ]
+}

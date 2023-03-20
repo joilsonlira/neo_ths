@@ -23,7 +23,7 @@ export const Content_container = styled.div`
     flex-direction: ${(prop)=>prop.direction};
     justify-content: space-between;
     width: 100%;
-    height: 100%;
+    min-height: 568px;
     background: radial-gradient(68.79% 68.79% at 50% 50%, 
         rgba(0, 0, 0, 0) 0.96%, 
         rgba(0, 0, 0, 0.2) 66.46%), 

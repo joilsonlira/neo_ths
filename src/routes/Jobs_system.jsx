@@ -76,6 +76,11 @@ const Jobs = (props) => {
         },
         {
             title:"Criminosos",
+            description:"Estes indivíduos não possuem uma profissão em si. Se tratam daqueles que, por ventura, não conquistaram um ofício dentro do seu grupo. Os motivos para haver desempregados partem desde a falta de funções dentro do grupo ou falta de preparo para lidar com as tarefas a serem realizadas",
+            img: com_habilidade
+        },
+        {
+            title:"Desempregado",
             description:"Essa classe são dos indivíduos que desejam conquistar algo a mais do que a zona de quarentena pode oferecer. Caso alguma fuga, roubo ou contrabando seja descoberto, a pessoa que cometeu um dos atos será marcada como criminosa. Nesse caso, se a pessoa for pega, ela sofrerá o julgamento por parte dos juízes, que pode variar entre prisão, expulsão e morte. De outro modo, caso o criminoso consiga fugir, ele se torna inimigo público da zona de quarentena e não poderá voltar aos aposentos.",
             img: com_habilidade
         }
@@ -200,6 +205,13 @@ const Jobs = (props) => {
                         <h3> {jobs_sem_prestigio_info[7].title}</h3>
                     </header>
                     <p>{jobs_sem_prestigio_info[7].description}</p>
+                </Job>
+                <Job>
+                    <header>
+                        <img src={jobs_sem_prestigio_info[0].img} alt="icom" />
+                        <h3> {jobs_sem_prestigio_info[8].title}</h3>
+                    </header>
+                    <p>{jobs_sem_prestigio_info[8].description}</p>
                 </Job>
             </div>
             

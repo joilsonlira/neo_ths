@@ -21,4 +21,7 @@ export const Job = styled.div`
         font-weight: lighter;
         line-height: 20px;
     }
+    & img{
+        display: none;
+    }
 `
